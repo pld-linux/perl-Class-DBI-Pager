@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	DBI-Pager
-Summary:	Class::DBI::Pager - Pager utility for Class::DBI
+Summary:	Class::DBI::Pager - pager utility for Class::DBI
 Summary(pl):	Class::DBI::Pager - narzêdzie stronicuj±ce dla Class::DBI
 Name:		perl-Class-DBI-Pager
 Version:	0.05
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Class::DBI::Pager is a plugin for Class::DBI, which glues Data::Page
 with Class::DBI. This module reduces your work a lot, for example when
 you have to do something like:
- * retrieve objects from a database
- * display objects with 20 items per page
+ - retrieve objects from a database
+ - display objects with 20 items per page
 In addition, your work will be reduced more, when you use
 Template-Toolkit as your templating engine.
 
