@@ -10,8 +10,8 @@ Summary(pl):	Class::DBI::Pager - narzêdzie stronicuj±ce dla Class::DBI
 Name:		perl-Class-DBI-Pager
 Version:	0.05
 Release:	1
-# Same as Perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ab4eb2c465318f992308dd2445ae55a9
