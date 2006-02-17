@@ -8,13 +8,13 @@
 Summary:	Class::DBI::Pager - pager utility for Class::DBI
 Summary(pl):	Class::DBI::Pager - narzêdzie stronicuj±ce dla Class::DBI
 Name:		perl-Class-DBI-Pager
-Version:	0.06
+Version:	0.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	358429211e6264779d37834ecf728ac1
+# Source0-md5:	611f9bc30b03b8101de4b1e45bb6cc0f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -30,18 +30,18 @@ Class::DBI::Pager is a plugin for Class::DBI, which glues Data::Page
 with Class::DBI. This module reduces your work a lot, for example when
 you have to do something like:
  - retrieve objects from a database
- - display objects with 20 items per page
-In addition, your work will be reduced more, when you use
-Template-Toolkit as your templating engine.
+ - display objects with 20 items per page In addition, your work will
+   be reduced more, when you use Template-Toolkit as your templating
+   engine.
 
 %description -l pl
 Class::DBI::Pager to wtyczka dla Class::DBI, która skleja Data::Page z
 Class::DBI. Ten modu³ oszczêdza wiele pracy, na przyk³ad kiedy robimy
 co¶ w rodzaju:
  - odczytanie obiektów z bazy danych
- - wy¶wietlenie obiektów po 20 elementów na stronie.
-Ponadto jeszcze wiêcej pracy mo¿na oszczêdziæ przy u¿yciu
-Template-Toolkitu jako silnika szablonów.
+ - wy¶wietlenie obiektów po 20 elementów na stronie. Ponadto jeszcze
+   wiêcej pracy mo¿na oszczêdziæ przy u¿yciu Template-Toolkitu jako
+   silnika szablonów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
