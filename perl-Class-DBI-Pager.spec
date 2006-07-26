@@ -8,13 +8,14 @@
 Summary:	Class::DBI::Pager - pager utility for Class::DBI
 Summary(pl):	Class::DBI::Pager - narzêdzie stronicuj±ce dla Class::DBI
 Name:		perl-Class-DBI-Pager
-Version:	0.07
+Version:	0.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	611f9bc30b03b8101de4b1e45bb6cc0f
+# Source0-md5:	d6b462ecc6439728a209ec5ec0192b0c
+URL:		http://search.cpan.org/dist/Class-DBI-Pager/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -22,6 +23,8 @@ BuildRequires:	perl-Class-DBI >= 0.90
 BuildRequires:	perl-Data-Page >= 0.13
 BuildRequires:	perl-Exporter-Lite
 %endif
+# Not caught by autodeps
+Requires:	perl-Class-Accessor-Chained
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
