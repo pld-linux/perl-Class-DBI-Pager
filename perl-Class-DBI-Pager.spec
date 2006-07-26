@@ -20,6 +20,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-DBI >= 0.90
+BuildRequires:	perl-Class-DBI-Pager
 BuildRequires:	perl-Data-Page >= 0.13
 BuildRequires:	perl-Exporter-Lite
 %endif
