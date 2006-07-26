@@ -19,6 +19,7 @@ URL:		http://search.cpan.org/dist/Class-DBI-Pager/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl-Class-Accessor-Chained
 BuildRequires:	perl-Class-DBI >= 0.90
 BuildRequires:	perl-Data-Page >= 0.13
 BuildRequires:	perl-Exporter-Lite
