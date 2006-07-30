@@ -9,7 +9,7 @@ Summary:	Class::DBI::Pager - pager utility for Class::DBI
 Summary(pl):	Class::DBI::Pager - narzêdzie stronicuj±ce dla Class::DBI
 Name:		perl-Class-DBI-Pager
 Version:	0.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
