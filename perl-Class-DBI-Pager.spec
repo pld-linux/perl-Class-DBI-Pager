@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-Pager
 Summary:	Class::DBI::Pager - pager utility for Class::DBI
-Summary(pl):	Class::DBI::Pager - narzêdzie stronicuj±ce dla Class::DBI
+Summary(pl.UTF-8):   Class::DBI::Pager - narzÄ™dzie stronicujÄ…ce dla Class::DBI
 Name:		perl-Class-DBI-Pager
 Version:	0.08
 Release:	3
@@ -41,14 +41,14 @@ you have to do something like:
    be reduced more, when you use Template-Toolkit as your templating
    engine.
 
-%description -l pl
-Class::DBI::Pager to wtyczka dla Class::DBI, która skleja Data::Page z
-Class::DBI. Ten modu³ oszczêdza wiele pracy, na przyk³ad kiedy robimy
-co¶ w rodzaju:
- - odczytanie obiektów z bazy danych
- - wy¶wietlenie obiektów po 20 elementów na stronie. Ponadto jeszcze
-   wiêcej pracy mo¿na oszczêdziæ przy u¿yciu Template-Toolkitu jako
-   silnika szablonów.
+%description -l pl.UTF-8
+Class::DBI::Pager to wtyczka dla Class::DBI, ktÃ³ra skleja Data::Page z
+Class::DBI. Ten moduÅ‚ oszczÄ™dza wiele pracy, na przykÅ‚ad kiedy robimy
+coÅ› w rodzaju:
+ - odczytanie obiektÃ³w z bazy danych
+ - wyÅ›wietlenie obiektÃ³w po 20 elementÃ³w na stronie. Ponadto jeszcze
+   wiÄ™cej pracy moÅ¼na oszczÄ™dziÄ‡ przy uÅ¼yciu Template-Toolkitu jako
+   silnika szablonÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
