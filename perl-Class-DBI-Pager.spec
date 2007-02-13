@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-Pager
 Summary:	Class::DBI::Pager - pager utility for Class::DBI
-Summary(pl.UTF-8):   Class::DBI::Pager - narzędzie stronicujące dla Class::DBI
+Summary(pl.UTF-8):	Class::DBI::Pager - narzędzie stronicujące dla Class::DBI
 Name:		perl-Class-DBI-Pager
 Version:	0.08
 Release:	3
